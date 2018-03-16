@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63CD7B56FD439A99A641E41B /* Pods_Taber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A52F4F2A53C0838CBAB098 /* Pods_Taber.framework */; };
+		DA039B041FB135D200CE8EFC /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B031FB135D200CE8EFC /* CGFloatExtension.swift */; };
+		DA039B061FB144A200CE8EFC /* ImageCropperOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B051FB144A200CE8EFC /* ImageCropperOverlayView.swift */; };
+		DA039B081FB1462100CE8EFC /* ImageCroppertOverlayTouchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B071FB1462100CE8EFC /* ImageCroppertOverlayTouchState.swift */; };
+		DA039B0A1FB1469800CE8EFC /* ImageCropperCropViewConfigurationOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B091FB1469800CE8EFC /* ImageCropperCropViewConfigurationOverlay.swift */; };
+		DA039B0C1FB1470700CE8EFC /* ImageCropperCropViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B0B1FB1470700CE8EFC /* ImageCropperCropViewConfiguration.swift */; };
+		DA039B0E1FB1474F00CE8EFC /* ImageCropperCropViewConfigurationEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B0D1FB1474F00CE8EFC /* ImageCropperCropViewConfigurationEdge.swift */; };
+		DA039B101FB1477F00CE8EFC /* ImageCropperCropViewConfigurationCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B0F1FB1477F00CE8EFC /* ImageCropperCropViewConfigurationCorner.swift */; };
+		DA039B121FB147D400CE8EFC /* ImageCropperCropViewConfigurationGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B111FB147D400CE8EFC /* ImageCropperCropViewConfigurationGrid.swift */; };
+		DA039B141FB1490300CE8EFC /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B131FB1490300CE8EFC /* CGPointExtension.swift */; };
+		DA039B161FB1493100CE8EFC /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B151FB1493100CE8EFC /* CGSizeExtension.swift */; };
+		DA039B181FB1495500CE8EFC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B171FB1495500CE8EFC /* UIImageExtension.swift */; };
+		DA039B1A1FB1529E00CE8EFC /* EditedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA039B191FB1529E00CE8EFC /* EditedImageViewController.swift */; };
+		DA0DEFEC1FA81C460088C021 /* ImageCropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DEFEB1FA81C460088C021 /* ImageCropperView.swift */; };
+		DA0DEFEE1FA823A60088C021 /* ImageCropperScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DEFED1FA823A60088C021 /* ImageCropperScrollView.swift */; };
+		DA41717A1F78901600A3B74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4171791F78901600A3B74C /* AppDelegate.swift */; };
+		DA41717C1F78901600A3B74C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA41717B1F78901600A3B74C /* CameraViewController.swift */; };
+		DA41717F1F78901600A3B74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA41717D1F78901600A3B74C /* Main.storyboard */; };
+		DA4171811F78901600A3B74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4171801F78901600A3B74C /* Assets.xcassets */; };
+		DA4171841F78901600A3B74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4171821F78901600A3B74C /* LaunchScreen.storyboard */; };
+		DA87987E2045087500DA71A4 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87987D2045087500DA71A4 /* PreviewView.swift */; };
+		DAFF2D5C1FA0193300926E0D /* CropperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF2D5B1FA0193300926E0D /* CropperViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F3C0ACB82F4F8F36C2E691F /* Pods-Taber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taber.release.xcconfig"; path = "Pods/Target Support Files/Pods-Taber/Pods-Taber.release.xcconfig"; sourceTree = "<group>"; };
+		54A52F4F2A53C0838CBAB098 /* Pods_Taber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565071D7E9EB6203DB5E24ED /* Pods-Taber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Taber/Pods-Taber.debug.xcconfig"; sourceTree = "<group>"; };
+		DA039B031FB135D200CE8EFC /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		DA039B051FB144A200CE8EFC /* ImageCropperOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperOverlayView.swift; sourceTree = "<group>"; };
+		DA039B071FB1462100CE8EFC /* ImageCroppertOverlayTouchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCroppertOverlayTouchState.swift; sourceTree = "<group>"; };
+		DA039B091FB1469800CE8EFC /* ImageCropperCropViewConfigurationOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperCropViewConfigurationOverlay.swift; sourceTree = "<group>"; };
+		DA039B0B1FB1470700CE8EFC /* ImageCropperCropViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperCropViewConfiguration.swift; sourceTree = "<group>"; };
+		DA039B0D1FB1474F00CE8EFC /* ImageCropperCropViewConfigurationEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperCropViewConfigurationEdge.swift; sourceTree = "<group>"; };
+		DA039B0F1FB1477F00CE8EFC /* ImageCropperCropViewConfigurationCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperCropViewConfigurationCorner.swift; sourceTree = "<group>"; };
+		DA039B111FB147D400CE8EFC /* ImageCropperCropViewConfigurationGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperCropViewConfigurationGrid.swift; sourceTree = "<group>"; };
+		DA039B131FB1490300CE8EFC /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		DA039B151FB1493100CE8EFC /* CGSizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
+		DA039B171FB1495500CE8EFC /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		DA039B191FB1529E00CE8EFC /* EditedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditedImageViewController.swift; sourceTree = "<group>"; };
+		DA0DEFEB1FA81C460088C021 /* ImageCropperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperView.swift; sourceTree = "<group>"; };
+		DA0DEFED1FA823A60088C021 /* ImageCropperScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperScrollView.swift; sourceTree = "<group>"; };
+		DA4171761F78901600A3B74C /* Taber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4171791F78901600A3B74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA41717B1F78901600A3B74C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DA41717E1F78901600A3B74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA4171801F78901600A3B74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4171831F78901600A3B74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA4171851F78901600A3B74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA87987D2045087500DA71A4 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		DAFF2D5B1FA0193300926E0D /* CropperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropperViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4171731F78901600A3B74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CD7B56FD439A99A641E41B /* Pods_Taber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028223EADA6DABD4B73A562B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				565071D7E9EB6203DB5E24ED /* Pods-Taber.debug.xcconfig */,
+				4F3C0ACB82F4F8F36C2E691F /* Pods-Taber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AF568A932CECB22909B4F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54A52F4F2A53C0838CBAB098 /* Pods_Taber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA41716D1F78901600A3B74C = {
+			isa = PBXGroup;
+			children = (
+				DA4171781F78901600A3B74C /* Taber */,
+				DA4171771F78901600A3B74C /* Products */,
+				028223EADA6DABD4B73A562B /* Pods */,
+				4AF568A932CECB22909B4F46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4171771F78901600A3B74C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4171761F78901600A3B74C /* Taber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4171781F78901600A3B74C /* Taber */ = {
+			isa = PBXGroup;
+			children = (
+				DA4171791F78901600A3B74C /* AppDelegate.swift */,
+				DA87987D2045087500DA71A4 /* PreviewView.swift */,
+				DA41717B1F78901600A3B74C /* CameraViewController.swift */,
+				DA039B191FB1529E00CE8EFC /* EditedImageViewController.swift */,
+				DAFF2D5B1FA0193300926E0D /* CropperViewController.swift */,
+				DA0DEFEB1FA81C460088C021 /* ImageCropperView.swift */,
+				DA0DEFED1FA823A60088C021 /* ImageCropperScrollView.swift */,
+				DA039B051FB144A200CE8EFC /* ImageCropperOverlayView.swift */,
+				DA039B071FB1462100CE8EFC /* ImageCroppertOverlayTouchState.swift */,
+				DA039B091FB1469800CE8EFC /* ImageCropperCropViewConfigurationOverlay.swift */,
+				DA039B0B1FB1470700CE8EFC /* ImageCropperCropViewConfiguration.swift */,
+				DA039B0D1FB1474F00CE8EFC /* ImageCropperCropViewConfigurationEdge.swift */,
+				DA039B0F1FB1477F00CE8EFC /* ImageCropperCropViewConfigurationCorner.swift */,
+				DA039B111FB147D400CE8EFC /* ImageCropperCropViewConfigurationGrid.swift */,
+				DA039B031FB135D200CE8EFC /* CGFloatExtension.swift */,
+				DA039B131FB1490300CE8EFC /* CGPointExtension.swift */,
+				DA039B151FB1493100CE8EFC /* CGSizeExtension.swift */,
+				DA039B171FB1495500CE8EFC /* UIImageExtension.swift */,
+				DA41717D1F78901600A3B74C /* Main.storyboard */,
+				DA4171801F78901600A3B74C /* Assets.xcassets */,
+				DA4171821F78901600A3B74C /* LaunchScreen.storyboard */,
+				DA4171851F78901600A3B74C /* Info.plist */,
+			);
+			path = Taber;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4171751F78901600A3B74C /* Taber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4171881F78901600A3B74C /* Build configuration list for PBXNativeTarget "Taber" */;
+			buildPhases = (
+				0E3D925CC291FA4832101E1F /* [CP] Check Pods Manifest.lock */,
+				DA4171721F78901600A3B74C /* Sources */,
+				DA4171731F78901600A3B74C /* Frameworks */,
+				DA4171741F78901600A3B74C /* Resources */,
+				9925ED1A8CE5A21A3469C4C6 /* [CP] Embed Pods Frameworks */,
+				6416C29C2998AC5B2294A212 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taber;
+			productName = Taber;
+			productReference = DA4171761F78901600A3B74C /* Taber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA41716E1F78901600A3B74C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Escaliber LLC";
+				TargetAttributes = {
+					DA4171751F78901600A3B74C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA4171711F78901600A3B74C /* Build configuration list for PBXProject "Taber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA41716D1F78901600A3B74C;
+			productRefGroup = DA4171771F78901600A3B74C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4171751F78901600A3B74C /* Taber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4171741F78901600A3B74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4171841F78901600A3B74C /* LaunchScreen.storyboard in Resources */,
+				DA4171811F78901600A3B74C /* Assets.xcassets in Resources */,
+				DA41717F1F78901600A3B74C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3D925CC291FA4832101E1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6416C29C2998AC5B2294A212 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taber/Pods-Taber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9925ED1A8CE5A21A3469C4C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Taber/Pods-Taber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taber/Pods-Taber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4171721F78901600A3B74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA41717C1F78901600A3B74C /* CameraViewController.swift in Sources */,
+				DAFF2D5C1FA0193300926E0D /* CropperViewController.swift in Sources */,
+				DA039B161FB1493100CE8EFC /* CGSizeExtension.swift in Sources */,
+				DA039B0A1FB1469800CE8EFC /* ImageCropperCropViewConfigurationOverlay.swift in Sources */,
+				DA039B121FB147D400CE8EFC /* ImageCropperCropViewConfigurationGrid.swift in Sources */,
+				DA039B1A1FB1529E00CE8EFC /* EditedImageViewController.swift in Sources */,
+				DA0DEFEC1FA81C460088C021 /* ImageCropperView.swift in Sources */,
+				DA0DEFEE1FA823A60088C021 /* ImageCropperScrollView.swift in Sources */,
+				DA039B141FB1490300CE8EFC /* CGPointExtension.swift in Sources */,
+				DA039B0E1FB1474F00CE8EFC /* ImageCropperCropViewConfigurationEdge.swift in Sources */,
+				DA039B101FB1477F00CE8EFC /* ImageCropperCropViewConfigurationCorner.swift in Sources */,
+				DA87987E2045087500DA71A4 /* PreviewView.swift in Sources */,
+				DA039B041FB135D200CE8EFC /* CGFloatExtension.swift in Sources */,
+				DA039B061FB144A200CE8EFC /* ImageCropperOverlayView.swift in Sources */,
+				DA039B0C1FB1470700CE8EFC /* ImageCropperCropViewConfiguration.swift in Sources */,
+				DA41717A1F78901600A3B74C /* AppDelegate.swift in Sources */,
+				DA039B081FB1462100CE8EFC /* ImageCroppertOverlayTouchState.swift in Sources */,
+				DA039B181FB1495500CE8EFC /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA41717D1F78901600A3B74C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA41717E1F78901600A3B74C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA4171821F78901600A3B74C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4171831F78901600A3B74C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4171861F78901600A3B74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA4171871F78901600A3B74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4171891F78901600A3B74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565071D7E9EB6203DB5E24ED /* Pods-Taber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q3N4XYPJ3;
+				INFOPLIST_FILE = Taber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.escalibre.TaberCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA41718A1F78901600A3B74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3C0ACB82F4F8F36C2E691F /* Pods-Taber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q3N4XYPJ3;
+				INFOPLIST_FILE = Taber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.escalibre.TaberCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4171711F78901600A3B74C /* Build configuration list for PBXProject "Taber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4171861F78901600A3B74C /* Debug */,
+				DA4171871F78901600A3B74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4171881F78901600A3B74C /* Build configuration list for PBXNativeTarget "Taber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4171891F78901600A3B74C /* Debug */,
+				DA41718A1F78901600A3B74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA41716E1F78901600A3B74C /* Project object */;
+}
